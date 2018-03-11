@@ -1,0 +1,46 @@
+
+
+/* 
+    Created on  : 2018 3 鏈� 11 鏃� 16:22
+    Author      : yhow
+    URL         : 
+    E-Mail      : 564223274@qq.com
+*/
+
+
+/*
+    
+  
+
+*/
+
+
+
+
+/*******************************************************************************
+        ## GENREAL
+*******************************************************************************/
+.k-1{
+	padding-top:10px;
+	float:left !important;
+	padding-right: 10px;
+}
+
+
+.k-select{
+	float:left !important;
+	padding-bottom: 10px;
+	padding-right: 15px;
+}
+
+.k-select-college{
+	width:200px !important;
+
+}
+
+.k-submit{
+	width:60px !important;
+	background-color:#f00;
+	color:#fff;
+}
+
