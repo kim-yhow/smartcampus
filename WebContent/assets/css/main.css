@@ -1434,7 +1434,7 @@ li.user-profile .dropdown-menu > li > a > i{
 *******************************************************************************/
 .page-header {
     padding: 0px 15px;
-    margin: 20px 0 20px;
+    margin: 20px 0 0px;
     box-sizing: border-box;
 }
 
@@ -1484,6 +1484,7 @@ li.user-profile .dropdown-menu > li > a > i{
 }
 
 .breadcrumb {
+	margin-top:80px;
     background-color: transparent;
     border: none;
     border-width: 1px 0;

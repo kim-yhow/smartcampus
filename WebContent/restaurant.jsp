@@ -18,13 +18,16 @@
       <div class="main-container">    <!-- START: Main Container -->
             <div class="page-header">
                 <ol class="breadcrumb">
-                    <li>出勤情况</li>
-                   
+                    <li>学生生活情况</li>
+                    <li>
                 </ol>
             </div>    
      <div class="content-wrap">  <!--START: Content Wrap-->
      
+     
+     
 
+     
      </div>  <!--END: Content Wrap-->
             
         </div>  <!-- END: Main Container -->

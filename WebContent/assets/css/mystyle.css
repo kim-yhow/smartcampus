@@ -44,3 +44,24 @@
 	color:#fff;
 }
 
+.k-image1{
+	width: 150px;
+    position: relative;
+    bottom: -20px;
+    background: #FFFFFF;
+    padding: 3px;
+}
+.k-h1{
+	color: #000;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 160px;
+}
+
+.k-bg1{
+	margin-top:0px;
+}
+
+.k-p1{
+	float:left;
+}
