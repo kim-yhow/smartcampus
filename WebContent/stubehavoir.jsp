@@ -9,11 +9,10 @@
 </head>
 <body>
  <!-- header -->
-
-  
  
 <%@ include file="header.jsp" %>
- <style>.chart{ height: 380px; }</style>
+
+<style>.chart{ height: 380px; }</style>
 <!-- sidebar -->
 <%@ include file="asidebar.jsp" %>
 
@@ -22,13 +21,29 @@
             <div class="page-header">
                 <ol class="breadcrumb">
                     <li><a href="./index.jsp">学生生活情况</a></li>
+                     <li><a href="./lifestulist.jsp">学生列表</a></li>
                     <li>学生活动分析</li>
                 </ol>
             </div>
-
-      		  <div class="k-bg1 page-header dataBgImage" data-bg-image="assets/images/background/img-wall-01.jpg">
-          
-              <img class="img-profile k-image1" src="./assets/images/img-user-01.jpg">
+  
+  
+                 
+ <div class="k-bg1 page-header dataBgImage" data-bg-image="assets/images/background/img-wall-01.jpg">
+ 
+           <form>
+  				 <div class="k-form1">
+					<label class="k-1">学号</label>
+				<div class="k-select">
+	  				<input  name="stuid" class="k-select-college form-control" value="01170111">
+	 		 	</div>  
+	 			 <div class="k-select2">
+	 		 		<input  name="stuid" type="submit" class="k-submit form-control" value="查找">
+				  </div>  
+    		 </div>
+			</form>  
+        
+ 
+    <img class="img-profile k-image1" src="./assets/images/img-user-01.jpg">
               <h3 class="k-h1 user-name">小白</h3>
            </div>
                             
@@ -105,6 +120,75 @@
                   </div>
              </div>
           </div>
+  		
+  <div class="row">              
+             <div class="col-md-12">
+                  <div class="panel panel-default">
+                      <div class="panel-heading">
+                           <h3 class="panel-title">消费列表</h3>
+                            <div class="tools">
+                                <a class="btn-link collapses panel-collapse" href="javascript:;"></a>
+                                <a class="btn-link reload" href="javascript:;"><i class="ti-reload"></i></a>	                                
+                                </div>
+                           </div>
+                     <div class="panel-body">
+                                <table class="table table-bordered table-dataTable">
+                                                  <thead>
+                                        <tr>
+                                            <th>一卡通账号</th>
+                                            <th>交易时间</th>
+                                            <th>交易地点</th>   
+                                            <th>交易用户</th>
+                                            <th>描述</th>
+                                            <th>交易金额</th>  
+                                            <th>交易余额</th>
+                                            <th>用卡次数</th>                
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                           			<tr>
+                                            <th>一卡通账号</th>
+                                            <th>交易时间</th>
+                                            <th>交易地点</th>   
+                                            <th>交易用户</th>
+                                            <th>描述</th>
+                                            <th>交易金额</th>  
+                                            <th>交易余额</th>
+                                            <th>用卡次数</th>                     
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td>90457</td>
+                                            <td>2018年1月1日 11:02:04</td>
+                                            <td>55#</td>    
+                                            <td>西区二餐厅</td>
+                                            <td>餐费支出</td>
+                                            <td>10</td> 
+                                            <td>56.3</td>
+                                            <td>122</td>                                                                                           
+                                       </tr>    
+                                         <tr>
+                                            <td>90457</td>
+                                            <td>2018年1月1日 17:02:04</td>
+                                            <td>55#</td>    
+                                            <td>西区二餐厅</td>
+                                            <td>餐费支出</td>
+                                            <td>9</td> 
+                                            <td>47.3</td>
+                                            <td>123</td>                                                                                           
+                                       </tr>                                          
+               
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div> 		
+  		
+  		
+  		
   			
       		
      </div>  <!--END: Content Wrap-->

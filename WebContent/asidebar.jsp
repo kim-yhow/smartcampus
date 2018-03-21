@@ -5,15 +5,15 @@
 String major="";
 String stuid="";
 String course="";
-String stube="";
+String lifestulist="";
 session.removeAttribute("aside");
 if(session.getAttribute("aside")!=null){
 int aside=Integer.valueOf(String.valueOf(session.getAttribute("aside")));
-
 switch(aside){
 case 1: major="class="+"active";break;
 case 2: stuid="class="+"active";break;
 case 3: course="class="+"active";break;
+case 4: lifestulist="class"+"active";break;
 }
 }
 %>
@@ -43,10 +43,23 @@ case 3: course="class="+"active";break;
                         </a>
                         <div class="sub-menu collapse secondary" id="submenuTwo">
            					<ul>
-                            	<li><a <%=stube%> href="./stubehavoir.jsp">学生活动分析</a></li>
+                            	<li><a <%=lifestulist%> href="./lifestulist.jsp">学生列表</a></li>
                             </ul>
                         </div>
                     </li>
+                    
+                     <li class="has-submenu">
+                        <a href="#submenuThree" data-toggle="collapse" aria-expanded="false">
+                            <i class="sli-bag"></i> 
+                            <span class="nav-text">食堂情况分析</span>
+                        </a>
+                        <div class="sub-menu collapse secondary" id="submenuThree">
+           					<ul>
+                            	<li><a href="#">xxx</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
                 </ul>                
             </div><!-- END: sidebar-inner -->            
         </aside>    <!-- END: Side Navigation -->

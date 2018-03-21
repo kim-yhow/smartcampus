@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<%session.setAttribute("aside", "course"); %>
+<%session.setAttribute("aside", 2); %>
 <!-- header -->
 <%@ include file="header.jsp" %>
 <!-- sidebar -->
@@ -69,7 +69,7 @@
                                             <td>8:00-8:40</td>
                                             <td>33</td>    
                                             <td>52</td>
-                                            <td><a href="./">80</a></td>
+                                            <td><a href="./CourseStuServlet?">80</a></td>
                                             <td><a href="./">76</a></td>
                                             <td><a href="./">5</a></td>
                                             <td><a href="./">0</a></td>
