@@ -20,7 +20,7 @@
       <div class="main-container ">    <!-- START: Main Container -->
             <div class="page-header">
                 <ol class="breadcrumb">
-                    <li><a href="./index.jsp">学生生活情况</a></li>
+                    <li><a href="#">学生生活情况</a></li>
                      <li><a href="./lifestulist.jsp">学生列表</a></li>
                     <li>学生活动分析</li>
                 </ol>

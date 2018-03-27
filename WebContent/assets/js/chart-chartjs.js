@@ -1,6 +1,5 @@
 $( document ).ready(function() {
-    
-    
+   
     var ctx4 = document.getElementById("chart4").getContext("2d");
     var data4 = [
         {
