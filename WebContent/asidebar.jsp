@@ -55,7 +55,7 @@ case 4: lifestulist="class"+"active";break;
                         </a>
                         <div class="sub-menu collapse secondary" id="submenuThree">
            					<ul>
-                            	<li><a href="#">食堂就餐人数分析</a></li>
+                            	<li><a href="./restaurant.jsp">食堂就餐人数分析</a></li>
                             </ul>
                         </div>
                     </li>
